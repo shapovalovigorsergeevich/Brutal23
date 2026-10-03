@@ -19,7 +19,7 @@
 .visual{min-height:100vh;position:relative;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 50% 48%,rgba(202,165,106,.15),transparent 30%),#0a0907}.visual:before{content:"";position:absolute;width:58vw;height:58vw;max-width:850px;max-height:850px;border:1px solid rgba(202,165,106,.22);border-radius:50%;box-shadow:0 0 130px rgba(202,165,106,.08),inset 0 0 100px rgba(202,165,106,.04)}.visual-copy{position:relative;z-index:2;text-align:center;max-width:660px}.visual-copy p{margin:24px auto}.ring-text{position:absolute;bottom:8%;font:9px "DM Mono";letter-spacing:.3em;color:#5e5851;white-space:nowrap}
 .precision{display:grid;grid-template-columns:55% 45%;min-height:100vh}.precision-art{min-height:700px;display:grid;place-items:center;position:relative;background:radial-gradient(circle,rgba(202,165,106,.08),transparent 38%)}.scissors{font-size:250px;color:rgba(202,165,106,.13);transform:rotate(-25deg);text-shadow:0 0 80px rgba(202,165,106,.08)}.crosshair{position:absolute;width:180px;height:180px;border:1px solid var(--line);border-radius:50%}.crosshair:before,.crosshair:after{content:"";position:absolute;background:var(--line)}.crosshair:before{width:1px;height:100%;left:50%}.crosshair:after{height:1px;width:100%;top:50%}.precision-copy{align-self:center;padding:8vw}.text-link{display:inline-block;margin-top:30px;padding-bottom:10px;border-bottom:1px solid var(--gold);font:11px "DM Mono";letter-spacing:.08em;text-transform:uppercase;color:var(--gold2)}
 .quote{padding:17vh 8vw;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}blockquote{font-size:clamp(44px,7vw,105px);line-height:.92;letter-spacing:-.06em;margin:30px auto;max-width:1100px;font-weight:700}.quote-meta{font:10px "DM Mono";letter-spacing:.18em;color:#6d665e;text-transform:uppercase}.booking{padding:14vh 8vw;display:grid;grid-template-columns:1fr .8fr;gap:10vw;background:linear-gradient(180deg,#0b0907,#100d09)}.booking h2{font-size:clamp(54px,7vw,100px)}.card{border:1px solid var(--line);padding:28px;background:rgba(255,255,255,.015);align-self:center}.row{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);font:10px "DM Mono"}.row span{color:#625c54}.row b{font-weight:400;color:#d7d0c6;text-align:right}.wide{width:100%;margin-top:25px}.social{display:block;margin-top:22px;text-align:center;font:10px "DM Mono";letter-spacing:.16em;color:#736c64}footer{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:28px 4vw;border-top:1px solid var(--line);font:9px "DM Mono";letter-spacing:.14em;color:#625d55}.footer-brand{font:18px Manrope;font-weight:800;color:#ddd5c9}.footer-brand span{color:var(--gold)}
-@media(max-width:900px){nav{display:none}.topbar{height:64px}.hero{grid-template-columns:1fr;padding-top:64px}.hero-copy{padding:12vh 0 0}.stage{min-height:500px}.stage canvas{min-height:500px}.a{width:90vw;height:90vw}.b{width:66vw;height:66vw}.manifesto,.services,.precision,.booking{grid-template-columns:1fr;gap:40px}.manifesto{padding:14vh 6vw}.services{padding:14vh 6vw}.precision-art{min-height:55vh}.precision-copy{padding:12vh 6vw}.booking{padding:14vh 6vw}footer{flex-direction:column;align-items:flex-start}}
+.booking-card{border-color:rgba(202,165,106,.38)}.booking-form{margin-top:22px}.booking-form label{display:block;font:9px "DM Mono";letter-spacing:.15em;color:#756e66;text-transform:uppercase}.booking-form select,.booking-form input{width:100%;margin-top:9px;min-height:48px;padding:0 13px;background:#0c0a08;color:#eee7dc;border:1px solid var(--line);font:11px "DM Mono";outline:none}.booking-form select:focus,.booking-form input:focus{border-color:var(--gold)}.date-time{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.master-note{margin:13px 0 0;color:#655f58;font:9px/1.6 "DM Mono";letter-spacing:.04em;text-transform:none}.booking-result{min-height:0;margin-top:12px;color:var(--gold2);font:10px/1.7 "DM Mono";letter-spacing:.05em}.model-spec{position:absolute;right:7%;bottom:8%;z-index:2;font:8px "DM Mono";letter-spacing:.16em;color:#625b53}.stage:after{content:"SCROLL / ROTATE";position:absolute;right:7%;bottom:12%;font:8px "DM Mono";letter-spacing:.18em;color:var(--gold);opacity:.72}.scroll-rotating{transform:translateZ(0)}@media(max-width:520px){.date-time{grid-template-columns:1fr}.stage:after{right:18px;bottom:18px}.model-spec{right:18px;bottom:52px}}@media(max-width:900px){nav{display:none}.topbar{height:64px}.hero{grid-template-columns:1fr;padding-top:64px}.hero-copy{padding:12vh 0 0}.stage{min-height:500px}.stage canvas{min-height:500px}.a{width:90vw;height:90vw}.b{width:66vw;height:66vw}.manifesto,.services,.precision,.booking{grid-template-columns:1fr;gap:40px}.manifesto{padding:14vh 6vw}.services{padding:14vh 6vw}.precision-art{min-height:55vh}.precision-copy{padding:12vh 6vw}.booking{padding:14vh 6vw}footer{flex-direction:column;align-items:flex-start}}
 @media(max-width:520px){.topbar{padding:0 18px}.brand b{font-size:11px}.nav-cta{padding:9px 11px}.hero{padding-left:20px;padding-right:20px}.hero-copy{padding-top:9vh}.actions{flex-direction:column}.btn{width:100%}h1{font-size:48px}.service{grid-template-columns:28px 1fr;gap:10px}.service strong{grid-column:2}.service h3{font-size:15px}blockquote{font-size:48px}}
 </style>
 </head>
@@ -27,7 +27,7 @@
 <div class="noise"></div>
 <header class="topbar">
 <a class="brand" href="#top"><span class="mark">23</span><b>BRUTAL</b></a>
-<nav><a href="#services">Услуги</a><a href="#about">О нас</a><a href="#contact">Контакты</a></nav>
+<nav><a href="#services">Услуги</a><a href="#about">О нас</a><a href="#booking">Запись</a><a href="https://www.instagram.com/23brutal23/" target="_blank" rel="noopener">Instagram ↗</a><a href="#contact">Контакты</a></nav>
 <a class="nav-cta" href="#booking">Записаться ↗</a>
 </header>
 <main id="top">
@@ -39,7 +39,7 @@
 <div class="actions"><a class="btn gold" href="#booking">Записаться</a><a class="btn ghost" href="#services">Смотреть услуги</a></div>
 </div>
 <div class="stage">
-<div class="orbit a"></div><div class="orbit b"></div><div class="label lt">PRECISION / 23</div>
+<div class="orbit a"></div><div class="orbit b"></div><div class="label lt">PRECISION / 23</div><div class="model-spec">FULL 3D CHAIR · SCROLL CONTROL</div>
 <canvas id="scene"></canvas><div class="label lb">MOVE YOUR CURSOR</div>
 </div>
 <div class="scroll">SCROLL TO EXPLORE <span>↓</span></div>
@@ -61,29 +61,191 @@
 <section class="precision section-grid"><div class="precision-art"><div class="scissors">✂</div><div class="crosshair"></div></div><div class="precision-copy"><div class="eyebrow">02 / PRECISION</div><h2>ФОРМА<br>ИМЕЕТ<br><em>ЗНАЧЕНИЕ.</em></h2><p>Контур, переход, длина и текстура — мы собираем образ по деталям, а не по шаблону.</p><a class="text-link" href="#booking">Обсудить свой образ ↗</a></div></section>
 <section class="quote"><div class="eyebrow">BRUTAL 23 / KRD</div><blockquote>«Не просто стрижка.<br><em>Свой стиль.</em>»</blockquote><div class="quote-meta">Воровского, 169 · Краснодар</div></section>
 <section id="booking" class="booking"><div><div class="eyebrow">BOOK YOUR CHAIR</div><h2>ГОТОВ<br><em>К ОБРАЗУ?</em></h2><p>BRUTAL 23, Краснодар. Ежедневно с 10:00 до 21:00.</p></div>
-<div class="card"><div class="row"><span>АДРЕС</span><b>ул. Воровского, 169</b></div><div class="row"><span>РАЙОН</span><b>Фестивальный</b></div><div class="row"><span>ТЕЛЕФОН</span><b>+7 (918) 089-31-11</b></div><a class="btn gold wide" href="tel:+79180893111">Позвонить и записаться ↗</a><a class="social" href="https://vk.com/23brutal23" target="_blank" rel="noopener">VK / 23BRUTAL23</a></div></section>
+<div class="card booking-card">
+<div class="row"><span>АДРЕС</span><b>ул. Воровского, 169</b></div>
+<div class="row"><span>РАЙОН</span><b>Фестивальный</b></div>
+<div class="row"><span>ТЕЛЕФОН</span><b>+7 (918) 089-31-11</b></div>
+<div class="booking-form">
+<label>ВЫБЕРИТЕ МАСТЕРА<select id="master" aria-label="Выбор мастера"><option value="Араик">Араик</option><option value="Андрей">Андрей</option><option value="Кристина">Кристина</option><option value="Юрий">Юрий</option><option value="Любой мастер">Любой мастер</option></select></label>
+<div class="date-time"><label>ДАТА<input id="date" type="date" required></label><label>ВРЕМЯ<select id="time" required></select></label></div>
+<div class="master-note">Свободное время уточняется при подтверждении записи.</div>
+<button class="btn gold wide" id="bookBtn" type="button">Выбрать время ↗</button>
+<div id="bookingResult" class="booking-result" aria-live="polite"></div>
+</div>
+<a class="btn ghost wide" href="tel:+79180893111">Позвонить и записаться</a>
+<a class="social" href="https://www.instagram.com/23brutal23/" target="_blank" rel="noopener">INSTAGRAM / @23BRUTAL23 ↗</a>
+<a class="social" href="https://vk.com/23brutal23" target="_blank" rel="noopener">VK / 23BRUTAL23 ↗</a>
+</div></section>
 </main>
 <footer id="contact"><div class="footer-brand">BRUTAL<span>23</span></div><div>КРАСНОДАР · ВОРОВСКОГО, 169</div><div>10:00 — 21:00 · ЕЖЕДНЕВНО</div></footer>
 <script type="module">
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
+
 const canvas=document.querySelector("#scene"),stage=document.querySelector(".stage");
-const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(stage.clientWidth,stage.clientHeight,false);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.35;
-const scene=new THREE.Scene();scene.fog=new THREE.FogExp2(0x090806,.035);
-const camera=new THREE.PerspectiveCamera(33,stage.clientWidth/stage.clientHeight,.1,100);camera.position.set(.2,1.6,8.6);
-const mat=(c,m,r)=>new THREE.MeshStandardMaterial({color:c,metalness:m,roughness:r}),gold=mat(0x9c7844,.82,.26),dark=mat(0x17130f,.45,.3),leather=mat(0x211a14,.05,.68),chrome=mat(0xaaa39a,.92,.16);
-scene.add(new THREE.HemisphereLight(0xffe0aa,0x090806,1.6));const key=new THREE.PointLight(0xd8aa61,38,20);key.position.set(2.8,4.5,3.5);scene.add(key);const rim=new THREE.PointLight(0x9c7442,25,16);rim.position.set(-4,2,-1);scene.add(rim);
-const chair=new THREE.Group();scene.add(chair);
-const add=(geo,m,p,r=[0,0,0])=>{const x=new THREE.Mesh(geo,m);x.position.set(...p);x.rotation.set(...r);chair.add(x);return x};
-add(new THREE.CylinderGeometry(1.05,.86,.35,48),dark,[0,.25,0]);add(new THREE.CylinderGeometry(.18,.22,1.5,32),chrome,[0,1.05,0]);
-add(new THREE.BoxGeometry(.65,.12,.12),chrome,[.52,1.2,0],[0,0,-.12]);
-add(new THREE.BoxGeometry(2.5,.55,2,6,2,6),leather,[0,2,0],[ -.04,0,0]);add(new THREE.BoxGeometry(2.5,2.9,.5,6,6,2),leather,[0,3.55,-.65],[-.1,0,0]);add(new THREE.BoxGeometry(1.15,.7,.38),leather,[0,5.05,-.5],[-.15,0,0]);
-[-1.35,1.35].forEach(x=>{add(new THREE.CylinderGeometry(.13,.16,1.55,24),chrome,[x,2.75,.02],[0,0,x>0?-Math.PI/2:Math.PI/2]);add(new THREE.BoxGeometry(.42,.18,1.55),leather,[x,3.15,-.02])});
-add(new THREE.BoxGeometry(1.8,.15,.55),chrome,[0,.52,1]);
-const ring=new THREE.Mesh(new THREE.TorusGeometry(2.9,.018,12,128),new THREE.MeshBasicMaterial({color:0xcaa56a,transparent:true,opacity:.65}));ring.position.set(0,2.7,-1.6);chair.add(ring);
-const sc=new THREE.Group(),bm=mat(0xd0c9bf,.95,.13);[-.24,.24].forEach(x=>{const b=new THREE.Mesh(new THREE.BoxGeometry(.08,1.8,.06),bm);b.position.x=x;b.rotation.z=x>0?.25:-.25;sc.add(b);const t=new THREE.Mesh(new THREE.TorusGeometry(.18,.045,12,32),gold);t.position.set(x*1.7,-.75,0);sc.add(t)});sc.scale.set(.65,.65,.65);sc.position.set(-2.9,4.9,.2);scene.add(sc);
-const pts=new THREE.Group(),pm=new THREE.MeshBasicMaterial({color:0xcaa56a,transparent:true,opacity:.35});for(let i=0;i<90;i++){const p=new THREE.Mesh(new THREE.SphereGeometry(.012+Math.random()*.022,6,6),pm);p.position.set((Math.random()-.5)*8,(Math.random()-.1)*7,(Math.random()-.5)*5);pts.add(p)}scene.add(pts);
-let mx=0,my=0;addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
-function resize(){const w=stage.clientWidth,h=stage.clientHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}addEventListener("resize",resize);
-const clock=new THREE.Clock();function animate(){const t=clock.getElapsedTime();chair.rotation.y+=(mx*.32-chair.rotation.y)*.035;chair.rotation.x+=(-my*.08-chair.rotation.x)*.035;chair.position.y=Math.sin(t*.7)*.035;ring.rotation.z=t*.12;sc.position.y=4.9+Math.sin(t*1.1)*.12;sc.rotation.y=t*.35;pts.rotation.y=t*.015;camera.position.x+=(mx*.45-camera.position.x)*.025;camera.position.y+=(1.55-my*.3-camera.position.y)*.025;renderer.render(scene,camera);requestAnimationFrame(animate)}animate();
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.setSize(stage.clientWidth,stage.clientHeight,false);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure=1.35;
+
+const scene=new THREE.Scene();
+scene.fog=new THREE.FogExp2(0x090806,.028);
+const camera=new THREE.PerspectiveCamera(31,stage.clientWidth/stage.clientHeight,.1,100);
+camera.position.set(.15,1.55,8.8);
+
+const mat=(c,m,r)=>new THREE.MeshStandardMaterial({color:c,metalness:m,roughness:r});
+const leather=mat(0x211914,.08,.62);
+const leather2=mat(0x2d2119,.05,.72);
+const dark=mat(0x100e0b,.55,.36);
+const chrome=mat(0xb9b0a4,.95,.14);
+const brass=mat(0xb7894d,.88,.2);
+const black=mat(0x080706,.7,.3);
+const seam=mat(0x6f5030,.32,.45);
+
+scene.add(new THREE.HemisphereLight(0xffe5bc,0x070604,1.8));
+const key=new THREE.PointLight(0xd8aa61,42,22);key.position.set(3.5,5.2,4.5);scene.add(key);
+const rim=new THREE.PointLight(0x8f6335,30,18);rim.position.set(-4,3,-3);scene.add(rim);
+const fill=new THREE.PointLight(0xfff1dc,9,12);fill.position.set(0,2,5);scene.add(fill);
+
+const chair=new THREE.Group();chair.position.set(0,-.2,0);scene.add(chair);
+function mesh(geo,material,pos=[0,0,0],rot=[0,0,0],parent=chair){
+  const o=new THREE.Mesh(geo,material);o.position.set(...pos);o.rotation.set(...rot);parent.add(o);return o;
+}
+function box(w,h,d,material,pos,rot=[0,0,0],bevel=.06){
+  const g=new THREE.BoxGeometry(w,h,d,4,4,4);
+  const o=mesh(g,material,pos,rot);
+  return o;
+}
+
+// Base + hydraulic mechanism
+mesh(new THREE.CylinderGeometry(1.28,1.05,.28,64),dark,[0,.22,0]);
+mesh(new THREE.CylinderGeometry(1.0,.72,.12,64),brass,[0,.39,0]);
+mesh(new THREE.CylinderGeometry(.22,.28,1.35,40),chrome,[0,1.12,0]);
+mesh(new THREE.CylinderGeometry(.34,.18,.25,40),dark,[0,1.78,0]);
+mesh(new THREE.TorusGeometry(.84,.06,16,64),brass,[0,.43,0]);
+
+// Heavy footrest and floor plate
+box(2.05,.16,.78,chrome,[0,.57,1.05],[0,0,0]);
+box(1.7,.10,.62,dark,[0,.67,1.08]);
+[-.75,.75].forEach(x=>{
+  mesh(new THREE.CylinderGeometry(.08,.1,.75,24),chrome,[x,.86,.75],[0,0,0]);
+});
+
+// Seat frame, cushion, piping
+box(2.9,.44,2.18,dark,[0,2.05,.15],[0,0,0]);
+box(2.62,.34,1.94,leather,[0,2.34,.12],[0,0,0]);
+box(2.45,.17,1.82,leather2,[0,2.57,.12]);
+mesh(new THREE.BoxGeometry(2.34,.08,1.68),seam,[0,2.68,.12]);
+mesh(new THREE.TorusGeometry(1.04,.035,10,64),brass,[0,2.58,.12],[Math.PI/2,0,0]);
+
+// Backrest + headrest
+box(2.72,3.02,.48,dark,[0,3.95,-.72],[-.09,0,0]);
+box(2.48,2.78,.38,leather,[0,4.0,-.45],[-.09,0,0]);
+box(2.28,2.48,.16,leather2,[0,4.0,-.24],[-.09,0,0]);
+box(1.28,.62,.38,dark,[0,5.45,-.34],[-.12,0,0]);
+box(1.08,.46,.32,leather,[0,5.43,-.12],[-.12,0,0]);
+
+// Armrests, brackets, pads
+[-1,1].forEach(side=>{
+  const x=side*1.42;
+  box(.26,1.28,.22,chrome,[x,3.05,.08],[0,0,side*.16]);
+  box(.34,.18,1.58,dark,[x,3.7,.05],[0,0,side*.04]);
+  box(.31,.16,1.43,leather,[x,3.79,.02],[0,0,side*.04]);
+  mesh(new THREE.CylinderGeometry(.1,.1,.7,24),brass,[x,3.03,-.18],[0,0,Math.PI/2]);
+});
+
+// Side lever and hinge
+mesh(new THREE.CylinderGeometry(.075,.075,.55,24),chrome,[1.58,2.05,-.2],[0,0,Math.PI/2]);
+mesh(new THREE.CylinderGeometry(.11,.11,.16,24),brass,[1.83,2.05,-.2],[0,0,Math.PI/2]);
+mesh(new THREE.SphereGeometry(.13,24,24),brass,[2.02,2.05,-.2]);
+
+// Upholstery seams and buttons
+for(let y=3.0;y<5.1;y+=.52){
+  mesh(new THREE.BoxGeometry(1.95,.018,.018),seam,[0,y,-.28],[-.09,0,0]);
+}
+[-.7,0,.7].forEach(x=>{
+  mesh(new THREE.SphereGeometry(.055,16,16),brass,[x,4.12,-.29]);
+});
+
+// Floor shadow disc
+const shadow=new THREE.Mesh(new THREE.CircleGeometry(2.7,64),new THREE.MeshBasicMaterial({color:0x000000,transparent:true,opacity:.3}));
+shadow.rotation.x=-Math.PI/2;shadow.position.y=.05;scene.add(shadow);
+
+// Orbit ring
+const ring=new THREE.Mesh(new THREE.TorusGeometry(3.0,.018,12,160),new THREE.MeshBasicMaterial({color:0xcaa56a,transparent:true,opacity:.7}));
+ring.position.set(0,2.65,-1.65);chair.add(ring);
+
+// Floating scissors
+const sc=new THREE.Group(),steel=mat(0xd0c9bf,.95,.13);
+[-.25,.25].forEach(x=>{
+  const blade=mesh(new THREE.BoxGeometry(.075,1.9,.055),steel,[0,0,0],[0,0,x>0?.24:-.24],sc);
+  blade.position.x=x;
+  const loop=new THREE.Mesh(new THREE.TorusGeometry(.19,.045,12,32),brass);
+  loop.position.set(x*1.7,-.82,0);sc.add(loop);
+});
+sc.scale.set(.62,.62,.62);sc.position.set(-3.05,4.9,.3);scene.add(sc);
+
+// Ambient particles
+const pts=new THREE.Group(),pm=new THREE.MeshBasicMaterial({color:0xcaa56a,transparent:true,opacity:.36});
+for(let i=0;i<110;i++){
+  const p=new THREE.Mesh(new THREE.SphereGeometry(.012+Math.random()*.022,6,6),pm);
+  p.position.set((Math.random()-.5)*8,(Math.random()-.1)*7,(Math.random()-.5)*5);pts.add(p);
+}
+scene.add(pts);
+
+let mx=0,my=0;
+addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+
+// Scroll controls the hero chair rotation; pointer adds a subtle live offset.
+let scrollTarget=0,scrollCurrent=0;
+function updateScrollRotation(){
+  const max=Math.max(1,document.documentElement.scrollHeight-innerHeight);
+  const progress=Math.min(1,Math.max(0,scrollY/max));
+  scrollTarget=progress*Math.PI*4.2;
+}
+addEventListener("scroll",updateScrollRotation,{passive:true});
+updateScrollRotation();
+
+function resize(){
+  const w=stage.clientWidth,h=stage.clientHeight;
+  renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();
+}
+addEventListener("resize",resize);
+
+const clock=new THREE.Clock();
+function animate(){
+  const t=clock.getElapsedTime();
+  scrollCurrent+=(scrollTarget-scrollCurrent)*.055;
+  chair.rotation.y=scrollCurrent+mx*.24;
+  chair.rotation.x+=(-my*.045-chair.rotation.x)*.04;
+  chair.position.y=Math.sin(t*.7)*.035;
+  ring.rotation.z=t*.12;
+  sc.position.y=4.9+Math.sin(t*1.1)*.12;
+  sc.rotation.y=t*.35;
+  pts.rotation.y=t*.015;
+  camera.position.x+=(mx*.42-camera.position.x)*.025;
+  camera.position.y+=(1.55-my*.25-camera.position.y)*.025;
+  renderer.render(scene,camera);
+  requestAnimationFrame(animate);
+}
+animate();
+
+// Booking controls
+const date=document.querySelector("#date"),time=document.querySelector("#time"),bookBtn=document.querySelector("#bookBtn"),result=document.querySelector("#bookingResult");
+const today=new Date();const pad=n=>String(n).padStart(2,"0");
+date.min=today.getFullYear()+"-"+pad(today.getMonth()+1)+"-"+pad(today.getDate());
+date.value=date.min;
+for(let h=10;h<=20;h++) for(let m of [0,30]){
+  if(h===20&&m===30) continue;
+  const o=document.createElement("option");o.value=pad(h)+":"+pad(m);o.textContent=pad(h)+":"+pad(m);time.appendChild(o);
+}
+bookBtn.addEventListener("click",()=>{
+  if(!date.value){date.focus();return}
+  const d=new Date(date.value+"T00:00:00");
+  const formatted=new Intl.DateTimeFormat("ru-RU",{day:"2-digit",month:"long",year:"numeric"}).format(d);
+  const master=document.querySelector("#master").value;
+  result.textContent="Запрос: "+master+" · "+formatted+" · "+time.value+". Позвоните по +7 (918) 089-31-11 для подтверждения.";
+});
 </script>
 </body></html>
